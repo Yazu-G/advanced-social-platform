@@ -1,20 +1,22 @@
-# Advanced Social Platform
+# Orbit Social Platform
 
-A polished, Facebook-inspired social network demo built with vanilla HTML, CSS and JavaScript.
+A polished, responsive social network interface with persistent browser data.
 
 ## Features
-- Login / signup demo (browser localStorage)
-- Personalized profile feed
-- Create text and photo posts
-- Like and comment interactions
-- Friends suggestions
-- Responsive desktop and mobile layout
+- Polished login/signup experience
+- Text and image post composer
+- Live like, comment, share, search, follow, and feed-tab interactions
+- Stories and suggested accounts
+- Responsive desktop and mobile layouts
+- Browser persistence via localStorage
 
-## Run
-Open `index.html` directly, or serve it:
+## Run locally
 
 ```bash
 python3 -m http.server 8080
 ```
 
-> Production authentication and realtime multi-user features require a backend (for example Firebase or Supabase).
+Open `http://localhost:8080`.
+
+## Production note
+Authentication and posts are local demos. Connect a backend such as Supabase or Firebase for real accounts, secure authentication, uploads, and realtime multi-user features.
